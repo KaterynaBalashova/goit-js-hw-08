@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.gallery-image {
+  width: 360px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+}
+
+.modal {
+  position: relative;
+  display: inline-block;
+}
+
+.img-modal {
+  width: 1112px;
+}
+
+.descr-modal {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #000000;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
